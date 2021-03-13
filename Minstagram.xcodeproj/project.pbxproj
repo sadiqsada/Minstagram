@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,12 +11,13 @@
 		34AF41A7D1439350A4BA5417 /* Pods_MinstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9480A95B9E914AA528514E /* Pods_MinstagramTests.framework */; };
 		CF2606A525FD68F700E430C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2606A425FD68F700E430C1 /* AppDelegate.swift */; };
 		CF2606A725FD68F700E430C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2606A625FD68F700E430C1 /* SceneDelegate.swift */; };
-		CF2606A925FD68F700E430C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2606A825FD68F700E430C1 /* ViewController.swift */; };
 		CF2606AC25FD68F700E430C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2606AA25FD68F700E430C1 /* Main.storyboard */; };
 		CF2606AE25FD68F900E430C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF2606AD25FD68F900E430C1 /* Assets.xcassets */; };
 		CF2606B125FD68F900E430C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2606AF25FD68F900E430C1 /* LaunchScreen.storyboard */; };
 		CF2606BC25FD68F900E430C1 /* MinstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2606BB25FD68F900E430C1 /* MinstagramTests.swift */; };
 		CF2606C725FD68F900E430C1 /* MinstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2606C625FD68F900E430C1 /* MinstagramUITests.swift */; };
+		CF2606EA25FD6F1300E430C1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2606E925FD6F1300E430C1 /* LoginViewController.swift */; };
+		CF2606EF25FD6F2000E430C1 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2606EE25FD6F2000E430C1 /* FeedViewController.swift */; };
 		E52B3927E81528DD7E5FFAC5 /* Pods_Minstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16FB0B992C18206F6458DB8D /* Pods_Minstagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +50,6 @@
 		CF2606A125FD68F700E430C1 /* Minstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2606A425FD68F700E430C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF2606A625FD68F700E430C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CF2606A825FD68F700E430C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CF2606AB25FD68F700E430C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF2606AD25FD68F900E430C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF2606B025FD68F900E430C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,6 +60,8 @@
 		CF2606C225FD68F900E430C1 /* MinstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2606C625FD68F900E430C1 /* MinstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinstagramUITests.swift; sourceTree = "<group>"; };
 		CF2606C825FD68F900E430C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2606E925FD6F1300E430C1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CF2606EE25FD6F2000E430C1 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		E347F3F152ABF71CA918D8FA /* Pods-MinstagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinstagramTests.debug.xcconfig"; path = "Target Support Files/Pods-MinstagramTests/Pods-MinstagramTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,7 +113,6 @@
 				E347F3F152ABF71CA918D8FA /* Pods-MinstagramTests.debug.xcconfig */,
 				A0E4776AB092B8929A3DE314 /* Pods-MinstagramTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -142,11 +143,12 @@
 			children = (
 				CF2606A425FD68F700E430C1 /* AppDelegate.swift */,
 				CF2606A625FD68F700E430C1 /* SceneDelegate.swift */,
-				CF2606A825FD68F700E430C1 /* ViewController.swift */,
 				CF2606AA25FD68F700E430C1 /* Main.storyboard */,
 				CF2606AD25FD68F900E430C1 /* Assets.xcassets */,
 				CF2606AF25FD68F900E430C1 /* LaunchScreen.storyboard */,
 				CF2606B225FD68F900E430C1 /* Info.plist */,
+				CF2606E925FD6F1300E430C1 /* LoginViewController.swift */,
+				CF2606EE25FD6F2000E430C1 /* FeedViewController.swift */,
 			);
 			path = Minstagram;
 			sourceTree = "<group>";
@@ -407,8 +409,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF2606A925FD68F700E430C1 /* ViewController.swift in Sources */,
+				CF2606EA25FD6F1300E430C1 /* LoginViewController.swift in Sources */,
 				CF2606A525FD68F700E430C1 /* AppDelegate.swift in Sources */,
+				CF2606EF25FD6F2000E430C1 /* FeedViewController.swift in Sources */,
 				CF2606A725FD68F700E430C1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
