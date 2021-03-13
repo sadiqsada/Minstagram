@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF2606A525FD68F700E430C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2606A425FD68F700E430C1 /* AppDelegate.swift */; };
+		CF2606A725FD68F700E430C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2606A625FD68F700E430C1 /* SceneDelegate.swift */; };
+		CF2606A925FD68F700E430C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2606A825FD68F700E430C1 /* ViewController.swift */; };
+		CF2606AC25FD68F700E430C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2606AA25FD68F700E430C1 /* Main.storyboard */; };
+		CF2606AE25FD68F900E430C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF2606AD25FD68F900E430C1 /* Assets.xcassets */; };
+		CF2606B125FD68F900E430C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2606AF25FD68F900E430C1 /* LaunchScreen.storyboard */; };
+		CF2606BC25FD68F900E430C1 /* MinstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2606BB25FD68F900E430C1 /* MinstagramTests.swift */; };
+		CF2606C725FD68F900E430C1 /* MinstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2606C625FD68F900E430C1 /* MinstagramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF2606B825FD68F900E430C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF26069925FD68F700E430C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF2606A025FD68F700E430C1;
+			remoteInfo = Minstagram;
+		};
+		CF2606C325FD68F900E430C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF26069925FD68F700E430C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF2606A025FD68F700E430C1;
+			remoteInfo = Minstagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF2606A125FD68F700E430C1 /* Minstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2606A425FD68F700E430C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF2606A625FD68F700E430C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF2606A825FD68F700E430C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF2606AB25FD68F700E430C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF2606AD25FD68F900E430C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF2606B025FD68F900E430C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF2606B225FD68F900E430C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2606B725FD68F900E430C1 /* MinstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2606BB25FD68F900E430C1 /* MinstagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinstagramTests.swift; sourceTree = "<group>"; };
+		CF2606BD25FD68F900E430C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2606C225FD68F900E430C1 /* MinstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2606C625FD68F900E430C1 /* MinstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinstagramUITests.swift; sourceTree = "<group>"; };
+		CF2606C825FD68F900E430C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF26069E25FD68F700E430C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2606B425FD68F900E430C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2606BF25FD68F900E430C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF26069825FD68F700E430C1 = {
+			isa = PBXGroup;
+			children = (
+				CF2606A325FD68F700E430C1 /* Minstagram */,
+				CF2606BA25FD68F900E430C1 /* MinstagramTests */,
+				CF2606C525FD68F900E430C1 /* MinstagramUITests */,
+				CF2606A225FD68F700E430C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF2606A225FD68F700E430C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF2606A125FD68F700E430C1 /* Minstagram.app */,
+				CF2606B725FD68F900E430C1 /* MinstagramTests.xctest */,
+				CF2606C225FD68F900E430C1 /* MinstagramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF2606A325FD68F700E430C1 /* Minstagram */ = {
+			isa = PBXGroup;
+			children = (
+				CF2606A425FD68F700E430C1 /* AppDelegate.swift */,
+				CF2606A625FD68F700E430C1 /* SceneDelegate.swift */,
+				CF2606A825FD68F700E430C1 /* ViewController.swift */,
+				CF2606AA25FD68F700E430C1 /* Main.storyboard */,
+				CF2606AD25FD68F900E430C1 /* Assets.xcassets */,
+				CF2606AF25FD68F900E430C1 /* LaunchScreen.storyboard */,
+				CF2606B225FD68F900E430C1 /* Info.plist */,
+			);
+			path = Minstagram;
+			sourceTree = "<group>";
+		};
+		CF2606BA25FD68F900E430C1 /* MinstagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF2606BB25FD68F900E430C1 /* MinstagramTests.swift */,
+				CF2606BD25FD68F900E430C1 /* Info.plist */,
+			);
+			path = MinstagramTests;
+			sourceTree = "<group>";
+		};
+		CF2606C525FD68F900E430C1 /* MinstagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF2606C625FD68F900E430C1 /* MinstagramUITests.swift */,
+				CF2606C825FD68F900E430C1 /* Info.plist */,
+			);
+			path = MinstagramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF2606A025FD68F700E430C1 /* Minstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2606CB25FD68F900E430C1 /* Build configuration list for PBXNativeTarget "Minstagram" */;
+			buildPhases = (
+				CF26069D25FD68F700E430C1 /* Sources */,
+				CF26069E25FD68F700E430C1 /* Frameworks */,
+				CF26069F25FD68F700E430C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Minstagram;
+			productName = Minstagram;
+			productReference = CF2606A125FD68F700E430C1 /* Minstagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF2606B625FD68F900E430C1 /* MinstagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2606CE25FD68F900E430C1 /* Build configuration list for PBXNativeTarget "MinstagramTests" */;
+			buildPhases = (
+				CF2606B325FD68F900E430C1 /* Sources */,
+				CF2606B425FD68F900E430C1 /* Frameworks */,
+				CF2606B525FD68F900E430C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF2606B925FD68F900E430C1 /* PBXTargetDependency */,
+			);
+			name = MinstagramTests;
+			productName = MinstagramTests;
+			productReference = CF2606B725FD68F900E430C1 /* MinstagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF2606C125FD68F900E430C1 /* MinstagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2606D125FD68F900E430C1 /* Build configuration list for PBXNativeTarget "MinstagramUITests" */;
+			buildPhases = (
+				CF2606BE25FD68F900E430C1 /* Sources */,
+				CF2606BF25FD68F900E430C1 /* Frameworks */,
+				CF2606C025FD68F900E430C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF2606C425FD68F900E430C1 /* PBXTargetDependency */,
+			);
+			name = MinstagramUITests;
+			productName = MinstagramUITests;
+			productReference = CF2606C225FD68F900E430C1 /* MinstagramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF26069925FD68F700E430C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CF2606A025FD68F700E430C1 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					CF2606B625FD68F900E430C1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CF2606A025FD68F700E430C1;
+					};
+					CF2606C125FD68F900E430C1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CF2606A025FD68F700E430C1;
+					};
+				};
+			};
+			buildConfigurationList = CF26069C25FD68F700E430C1 /* Build configuration list for PBXProject "Minstagram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF26069825FD68F700E430C1;
+			productRefGroup = CF2606A225FD68F700E430C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF2606A025FD68F700E430C1 /* Minstagram */,
+				CF2606B625FD68F900E430C1 /* MinstagramTests */,
+				CF2606C125FD68F900E430C1 /* MinstagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF26069F25FD68F700E430C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2606B125FD68F900E430C1 /* LaunchScreen.storyboard in Resources */,
+				CF2606AE25FD68F900E430C1 /* Assets.xcassets in Resources */,
+				CF2606AC25FD68F700E430C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2606B525FD68F900E430C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2606C025FD68F900E430C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF26069D25FD68F700E430C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2606A925FD68F700E430C1 /* ViewController.swift in Sources */,
+				CF2606A525FD68F700E430C1 /* AppDelegate.swift in Sources */,
+				CF2606A725FD68F700E430C1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2606B325FD68F900E430C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2606BC25FD68F900E430C1 /* MinstagramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2606BE25FD68F900E430C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2606C725FD68F900E430C1 /* MinstagramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF2606B925FD68F900E430C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF2606A025FD68F700E430C1 /* Minstagram */;
+			targetProxy = CF2606B825FD68F900E430C1 /* PBXContainerItemProxy */;
+		};
+		CF2606C425FD68F900E430C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF2606A025FD68F700E430C1 /* Minstagram */;
+			targetProxy = CF2606C325FD68F900E430C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF2606AA25FD68F700E430C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF2606AB25FD68F700E430C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF2606AF25FD68F900E430C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF2606B025FD68F900E430C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF2606C925FD68F900E430C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF2606CA25FD68F900E430C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF2606CC25FD68F900E430C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Minstagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = memo.com.Minstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF2606CD25FD68F900E430C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Minstagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = memo.com.Minstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF2606CF25FD68F900E430C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MinstagramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = memo.com.MinstagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minstagram.app/Minstagram";
+			};
+			name = Debug;
+		};
+		CF2606D025FD68F900E430C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MinstagramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = memo.com.MinstagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minstagram.app/Minstagram";
+			};
+			name = Release;
+		};
+		CF2606D225FD68F900E430C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MinstagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = memo.com.MinstagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Minstagram;
+			};
+			name = Debug;
+		};
+		CF2606D325FD68F900E430C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MinstagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = memo.com.MinstagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Minstagram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF26069C25FD68F700E430C1 /* Build configuration list for PBXProject "Minstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2606C925FD68F900E430C1 /* Debug */,
+				CF2606CA25FD68F900E430C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2606CB25FD68F900E430C1 /* Build configuration list for PBXNativeTarget "Minstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2606CC25FD68F900E430C1 /* Debug */,
+				CF2606CD25FD68F900E430C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2606CE25FD68F900E430C1 /* Build configuration list for PBXNativeTarget "MinstagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2606CF25FD68F900E430C1 /* Debug */,
+				CF2606D025FD68F900E430C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2606D125FD68F900E430C1 /* Build configuration list for PBXNativeTarget "MinstagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2606D225FD68F900E430C1 /* Debug */,
+				CF2606D325FD68F900E430C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF26069925FD68F700E430C1 /* Project object */;
+}
