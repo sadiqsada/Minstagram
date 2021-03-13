@@ -106,7 +106,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="MQw-si-L7q">
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="insta_camera_btn" id="0YR-Vm-f4J"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="insta_camera_btn" id="0YR-Vm-f4J">
+                            <connections>
+                                <segue destination="SsM-Qy-syp" kind="presentation" id="SdI-0H-njh"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tAN-tw-3EV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -118,20 +122,27 @@
             <objects>
                 <viewController id="SsM-Qy-syp" customClass="CameraViewController" customModule="Minstagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kkn-sg-gkH">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="6Hy-ZA-ENQ">
-                                <rect key="frame" x="10" y="54" width="394" height="375"/>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="6Hy-ZA-ENQ">
+                                <rect key="frame" x="10" y="10" width="394" height="375"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="cSh-c7-yFO" appends="YES" id="cK2-v2-P0O"/>
+                                </connections>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dgN-WF-dEM">
-                                <rect key="frame" x="10" y="439" width="394" height="34"/>
+                                <rect key="frame" x="10" y="395" width="394" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ic-5D-xec">
-                                <rect key="frame" x="10" y="493" width="394" height="30"/>
+                                <rect key="frame" x="10" y="449" width="394" height="30"/>
                                 <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="onSubmitButton:" destination="SsM-Qy-syp" eventType="touchUpInside" id="gst-eS-YlZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5lF-Eh-f13"/>
@@ -148,8 +159,17 @@
                             <constraint firstItem="5lF-Eh-f13" firstAttribute="trailing" secondItem="6Hy-ZA-ENQ" secondAttribute="trailing" constant="10" id="zvI-sE-0zO"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="commentField" destination="dgN-WF-dEM" id="nOu-OL-SWj"/>
+                        <outlet property="imageView" destination="6Hy-ZA-ENQ" id="bV4-92-Jyr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2DC-mk-qQs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="cSh-c7-yFO">
+                    <connections>
+                        <action selector="onCameraButton:" destination="SsM-Qy-syp" id="RgM-bC-XKX"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2223" y="94"/>
         </scene>
