@@ -105,11 +105,53 @@
                         <viewLayoutGuide key="safeArea" id="wDn-6s-9u9"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="MQw-si-L7q"/>
+                    <navigationItem key="navigationItem" id="MQw-si-L7q">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="insta_camera_btn" id="0YR-Vm-f4J"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tAN-tw-3EV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1460.8695652173915" y="93.75"/>
+        </scene>
+        <!--Camera View Controller-->
+        <scene sceneID="O9z-fn-phH">
+            <objects>
+                <viewController id="SsM-Qy-syp" customClass="CameraViewController" customModule="Minstagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kkn-sg-gkH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="6Hy-ZA-ENQ">
+                                <rect key="frame" x="10" y="54" width="394" height="375"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dgN-WF-dEM">
+                                <rect key="frame" x="10" y="439" width="394" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ic-5D-xec">
+                                <rect key="frame" x="10" y="493" width="394" height="30"/>
+                                <state key="normal" title="Submit"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5lF-Eh-f13"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="dgN-WF-dEM" firstAttribute="top" secondItem="6Hy-ZA-ENQ" secondAttribute="bottom" constant="10" id="3ay-qc-kMK"/>
+                            <constraint firstItem="6Hy-ZA-ENQ" firstAttribute="leading" secondItem="5lF-Eh-f13" secondAttribute="leading" constant="10" id="64S-4w-pay"/>
+                            <constraint firstItem="4ic-5D-xec" firstAttribute="leading" secondItem="5lF-Eh-f13" secondAttribute="leading" constant="10" id="DLv-0n-Rrz"/>
+                            <constraint firstItem="5lF-Eh-f13" firstAttribute="trailing" secondItem="4ic-5D-xec" secondAttribute="trailing" constant="10" id="InR-r0-QZf"/>
+                            <constraint firstItem="5lF-Eh-f13" firstAttribute="trailing" secondItem="dgN-WF-dEM" secondAttribute="trailing" constant="10" id="R0w-wO-SpH"/>
+                            <constraint firstItem="4ic-5D-xec" firstAttribute="top" secondItem="dgN-WF-dEM" secondAttribute="bottom" constant="20" id="YPW-ex-du4"/>
+                            <constraint firstItem="6Hy-ZA-ENQ" firstAttribute="top" secondItem="5lF-Eh-f13" secondAttribute="top" constant="10" id="xIp-WL-oTf"/>
+                            <constraint firstItem="dgN-WF-dEM" firstAttribute="leading" secondItem="5lF-Eh-f13" secondAttribute="leading" constant="10" id="zAD-jC-2fZ"/>
+                            <constraint firstItem="5lF-Eh-f13" firstAttribute="trailing" secondItem="6Hy-ZA-ENQ" secondAttribute="trailing" constant="10" id="zvI-sE-0zO"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2DC-mk-qQs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2223" y="94"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ITX-n6-5su">
@@ -131,6 +173,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="image_placeholder" width="375" height="375"/>
+        <image name="insta_camera_btn" width="25" height="25"/>
         <image name="instagram_logo" width="255" height="108"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

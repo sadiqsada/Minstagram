@@ -18,6 +18,7 @@
 		CF2606C725FD68F900E430C1 /* MinstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2606C625FD68F900E430C1 /* MinstagramUITests.swift */; };
 		CF2606EA25FD6F1300E430C1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2606E925FD6F1300E430C1 /* LoginViewController.swift */; };
 		CF2606EF25FD6F2000E430C1 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2606EE25FD6F2000E430C1 /* FeedViewController.swift */; };
+		CF2606F425FD78A300E430C1 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2606F325FD78A300E430C1 /* CameraViewController.swift */; };
 		E52B3927E81528DD7E5FFAC5 /* Pods_Minstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16FB0B992C18206F6458DB8D /* Pods_Minstagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		CF2606C825FD68F900E430C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF2606E925FD6F1300E430C1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CF2606EE25FD6F2000E430C1 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		CF2606F325FD78A300E430C1 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		E347F3F152ABF71CA918D8FA /* Pods-MinstagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinstagramTests.debug.xcconfig"; path = "Target Support Files/Pods-MinstagramTests/Pods-MinstagramTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,6 +151,7 @@
 				CF2606B225FD68F900E430C1 /* Info.plist */,
 				CF2606E925FD6F1300E430C1 /* LoginViewController.swift */,
 				CF2606EE25FD6F2000E430C1 /* FeedViewController.swift */,
+				CF2606F325FD78A300E430C1 /* CameraViewController.swift */,
 			);
 			path = Minstagram;
 			sourceTree = "<group>";
@@ -410,6 +413,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF2606EA25FD6F1300E430C1 /* LoginViewController.swift in Sources */,
+				CF2606F425FD78A300E430C1 /* CameraViewController.swift in Sources */,
 				CF2606A525FD68F700E430C1 /* AppDelegate.swift in Sources */,
 				CF2606EF25FD6F2000E430C1 /* FeedViewController.swift in Sources */,
 				CF2606A725FD68F700E430C1 /* SceneDelegate.swift in Sources */,
