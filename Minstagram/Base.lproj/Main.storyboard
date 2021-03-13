@@ -50,10 +50,16 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1NL-Ew-PBk">
                                 <rect key="frame" x="100" y="528" width="47" height="30"/>
                                 <state key="normal" title="Sign In"/>
+                                <connections>
+                                    <action selector="onSignIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qLg-oq-nq7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZO-in-f04">
                                 <rect key="frame" x="260" y="528" width="54" height="30"/>
                                 <state key="normal" title="Sign Up"/>
+                                <connections>
+                                    <action selector="onSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kfV-ZP-eqO"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -79,6 +85,11 @@
                             <constraint firstItem="aSg-6S-KZn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="zQN-2q-wAq"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="passwordField" destination="1J7-EU-sqa" id="MIl-Bb-Z7B"/>
+                        <outlet property="usernameField" destination="qy3-Bo-LQx" id="YKQ-kc-FxC"/>
+                        <segue destination="TFj-sj-5Ty" kind="presentation" identifier="loginSegue" id="rs1-kq-TPH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -89,7 +100,7 @@
             <objects>
                 <viewController id="AO5-gW-04J" customClass="FeedViewController" customModule="Minstagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DdV-uv-3wk">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="wDn-6s-9u9"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -106,7 +117,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TFj-sj-5Ty" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dLc-9x-P5C">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
