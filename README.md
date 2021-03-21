@@ -22,7 +22,7 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-[Link to GIF Walkthrough](http://g.recordit.co/zNvmbrANUK.gif)
+[Link to GIF Walkthrough](http://g.recordit.co/PN4Yn4sU08.gif)
 
 # Minstagram - Part 1
 
