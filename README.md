@@ -1,4 +1,4 @@
-# Parstagram - Part II
+# Minstagram - Part II
 
 This is an Instagram clone with a custom Parse backend that allows a user to post photos, view a global photos feed, and add comments!
 
@@ -22,7 +22,7 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+[Link to GIF Walkthrough](http://g.recordit.co/zNvmbrANUK.gif)
 
 # Minstagram - Part 1
 
